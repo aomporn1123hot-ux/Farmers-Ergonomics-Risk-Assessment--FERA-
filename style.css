@@ -1,0 +1,67 @@
+body {
+  font-family: "sans-serif";
+  margin: 16px;
+  background-color: #f9f9f9;
+  font-size: 64px; /* เดิม 32px → เพิ่มอีก 1 เท่า */
+}
+
+.cover-img {
+  width: 100%;
+  max-width: 960px; /* เดิม 480px → เพิ่มอีก 1 เท่า */
+  display: block;
+  margin: auto;
+}
+
+h2 {
+  color: #2a4d4d;
+  font-size: 80px; /* เดิม 40px → เพิ่มอีก 1 เท่า */
+}
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.image-option {
+  border: 1mm solid lightgreen;
+  padding: 8px;
+  width: 48%; /* ให้ใหญ่ขึ้นเมื่อเทียบกับเดิม */
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 56px; /* เดิม 28px → เพิ่มอีก 1 เท่า */
+}
+
+.image-option img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nav-buttons {
+  margin-top: 16px;
+  text-align: center;
+}
+
+button {
+  padding: 32px 64px; /* เดิม 16x32 → เพิ่มอีก 1 เท่า */
+  margin: 4px;
+  font-size: 64px; /* เดิม 32px → เพิ่มอีก 1 เท่า */
+}
+
+#resultImage {
+  width: 100%;  /* เต็มความกว้างจอมือถือ */
+  height: auto;
+  border: 1mm solid lightgreen;
+  display: block;
+  margin: 8px auto;
+  max-height: none; /* เอาข้อจำกัดความสูงออก ให้เต็มจอได้ */
+}
